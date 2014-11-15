@@ -1,0 +1,2 @@
+Не хватает #include <stdio.h>, main, return;
+Лишний пробел после printf;

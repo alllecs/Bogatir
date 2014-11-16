@@ -1,2 +1,3 @@
 Не хватает #include <stdio.h>, main, return;
-Лишний пробел после printf;
+Лишний then;
+Не хватает (x < 1);

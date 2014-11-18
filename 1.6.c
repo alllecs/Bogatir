@@ -11,7 +11,6 @@ void main_printf(void)
         printf("Путин\n");
         printf("Кремль\n");
         printf("Москва\n");
-        return 0;
 }
 
 int main(void)

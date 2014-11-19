@@ -1,6 +1,6 @@
 CC=gcc
 
-CFLAGS=-I -W -Wall
+CFLAGS=-W -Wall
 
 all: 1.1 1.3 1.5 1.6 1.7 1.9
 

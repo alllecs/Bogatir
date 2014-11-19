@@ -2,19 +2,17 @@
 
 void main_puts(void)
 {
-        char string[] = "Путин. Кремль. Москва.";
-        puts(string);
+        puts("Путин.\nКремль.\nМосква.\n");
 }
-
 void main_printf(void)
 {
-        printf("Путин.");
-        printf("Кремль.");
-        printf("Москва.");
+        printf("Путин.\n");
+        printf("Кремль.\n");
+        printf("Москва.\n");
 }
-
 int main(void)
 {
 main_puts();
 main_printf();
+return 0;
 }

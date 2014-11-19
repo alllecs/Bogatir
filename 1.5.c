@@ -10,9 +10,12 @@ int main(void)
 {
 	int x;
 
-	if(x > 2)
-	x = 2;
+	if(x > 2) {
+		printf("%d", x = 2);
+	}
 
-	if(x < 1)
-	x = 1;
+	if(x < 1) {
+		printf("%d", x = 1);
+	}
+	return 0;
 }

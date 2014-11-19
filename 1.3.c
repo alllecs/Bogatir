@@ -16,4 +16,5 @@ int main(void)
 
 	i = 43;
 	printf("В году %d недель\n", i);
+	return 0;
 }

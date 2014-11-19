@@ -6,9 +6,10 @@ int main(void)
 	int b;
 
 	a = b = 5;
-	a + b;
-	a++ + b;
-	++a + b;
-	a-- + b;
+	printf("%d %d", a, b);
+	printf("a + b = %d", a + b);
+	printf("a++ + b = %d", a++ + b);
+	printf("++a + b = %d", ++a + b);
+	printf("a-- + b = %d", a-- + b);
 	printf("%d %d", a, b);
 }

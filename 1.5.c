@@ -1,3 +1,9 @@
+/*
+Не хватает #include <stdio.h>, main, return;
+Лишний then;
+Не хватает "("x < 1")";
+*/
+
 #include <stdio.h>
 
 int main(void)

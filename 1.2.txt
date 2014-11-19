@@ -1,2 +1,8 @@
-Не хватает return;
+//Найдите ошибку в программе
 
+    #include <stdio.h>
+    main(){
+        printf("Hello, world\n");
+    }
+//
+Не хватает return;

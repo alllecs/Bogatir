@@ -8,9 +8,9 @@ void main_puts(void)
 
 void main_printf(void)
 {
-        printf("Путин\n");
-        printf("Кремль\n");
-        printf("Москва\n");
+        printf("Путин \n");
+        printf("Кремль \n");
+        printf("Москва \n");
 }
 
 int main(void)

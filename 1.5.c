@@ -10,10 +10,11 @@ int main(void)
 {
 	int x;
 
+	printf("x = ");
+	scanf("%d", x);
 	if(x > 2) {
 		printf("%d", x = 2);
 	}
-
 	if(x < 1) {
 		printf("%d", x = 1);
 	}

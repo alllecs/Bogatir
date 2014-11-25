@@ -1,20 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 int print_str(int WIDTH, int x0, int w)
 {
 }
+
 int main(void)
 {
-	int x;
+	int i;
+	print_str(WIDTH, x0, w);
 
-	print_str(WIDTH, 5);
-	print_str(WIDTH, 4);
-
-	for(x=0; x < x0; x++) {
+	for(i = 0; i < x0; i++) {
 		printf("-");
 	}
-	for(x=0; x < w; x++) {
-		printf("*");
+	for(i = 0; i < x0 + w; i++) {
+		 printf("*");
 	}
-	return 0
+	for(i = 0; i < WIDTH; i++) {
+		printf("-");
+	}
 }

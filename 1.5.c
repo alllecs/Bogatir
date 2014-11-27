@@ -11,14 +11,12 @@ int main(void)
 	int x;
 
 	printf("x = ");
-	scanf("%d", x);
+	scanf("%d", &x);
 	if(x >= 2) {
-		printf("%d", x = 2);
+		printf("x = 2\n");
 	}
 	if(x <= 1) {
-		printf("%d", x = 1);
-	} else {
-	printf("%d\n", x);
+		printf("x = 1\n");
 	}
 
 	return 0;

@@ -19,7 +19,7 @@ int print_str(int offset, int height)
 
 int main(int argc, char *argv[])
 {
-	if (argc < 2) {
+	if (argc < 3) {
 		printf("Не указаны параметры\n");
 		return 2;
 	}

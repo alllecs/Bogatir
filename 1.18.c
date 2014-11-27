@@ -2,10 +2,12 @@
 
 int main()
 {
-	int c = 0;
+	long c = 0;
 
-	while (getchar() !=EOF) c++;
-	printf("%d\n", c);
+	while (getchar() != '\n')
+		++c;
+
+	printf("%ld\n", c);
 
 	return 0;
 }

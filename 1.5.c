@@ -12,10 +12,10 @@ int main(void)
 
 	printf("x = ");
 	scanf("%d", &x);
-	if(x >= 2) {
+	if (x >= 2) {
 		printf("x = 2\n");
 	}
-	if(x <= 1) {
+	if (x <= 1) {
 		printf("x = 1\n");
 	}
 

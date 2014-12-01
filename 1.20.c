@@ -6,9 +6,9 @@ int main()
 
 
 	while ((A = getchar()) != EOF) {
-		if ((A >= 'a') && (A <= 'z')) {
-			if (A == 'z')
-				A = 'a';
+		if ((A >= 'A') && (A <= 'Z')) {
+			if (A == 'Z')
+				A = 'A';
 			else
 				++A;
 		} else {
@@ -18,3 +18,4 @@ int main()
 	printf("%c", A);
 	}
 }
+

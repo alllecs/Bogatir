@@ -2,19 +2,19 @@
 
 int main()
 {
-	char A;
+	char in_char;
 
 
-	while ((A = getchar()) != EOF) {
-		if ((A >= 'a') && (A <= 'z')) {
-			if (A == 'z')
-				A = 'a';
+	while ((in_char = getchar()) != EOF) {
+		if ((in_char >= 'a') && (in_char <= 'z')) {
+			if (in_char == 'z')
+				in_char = 'a';
 			else
-				++A;
+				++in_char;
 		} else {
-		A = '*';
+		in_char = '*';
 		}
 
-	printf("%c", A);
+	printf("%c", in_char);
 	}
 }

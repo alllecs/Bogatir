@@ -3,8 +3,8 @@
 int is_lower_latin(char symbol)
 {
 	if ((symbol >= 'a') && (symbol <= 'z'))
-		return 2;
-	else
+		return 1;
+
 		return 0;
 }
 
@@ -12,8 +12,8 @@ char rotate_forward(char symbol)
 {
 	if (symbol == 'z')
 		return 'a';
-	else
-		return ++symbol;
+
+		return symbol + 1;
 }
 
 int main()

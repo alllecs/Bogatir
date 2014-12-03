@@ -3,7 +3,7 @@
 int is_higher_latin(char symbol)
 {
 	if ((symbol >= 'A') && (symbol <= 'Z'))
-		return 2;
+		return 1;
 
 		return 0;
 }
